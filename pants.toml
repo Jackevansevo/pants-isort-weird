@@ -1,0 +1,15 @@
+[GLOBAL]
+backend_packages = [
+  'pants.backend.python',
+  'pants.backend.python.lint.black',
+  'pants.backend.python.lint.isort',
+]
+pants_version = "2.16.0"
+
+[python]
+interpreter_constraints = ["CPython==3.11.*"]
+
+
+[anonymous-telemetry]
+enabled = true
+repo_id = "6f1527df-6e71-46f2-8f64-5ad5d642f704"
